@@ -6,6 +6,8 @@ An advanced scientific application for multiplet calculations and orbital analys
 
 Orbitron-Multiplet is a GUI application that provides a user-friendly interface for the Multiplet2 code, enabling scientists and researchers to perform complex calculations related to electron orbitals and atomic structure.
 
+The core calculation engine (in RPES/src) was developed by Professor Peter Krüger from the University of Chiba. This GUI application builds upon his scientific work to make it more accessible and user-friendly.
+
 The application allows users to:
 - Create input files for Multiplet2 calculations
 - Run the Multiplet2 executable with customized parameters
@@ -66,7 +68,9 @@ See the detailed installation and build instructions in:
 
 ## License
 
-[Specify license information]
+MIT License. See the [LICENSE](LICENSE) file for details.
+
+The calculation source code in the RPES/src directory was created by Professor Peter Krüger from the University of Chiba.
 
 ## Contributing
 
@@ -74,4 +78,5 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## Acknowledgements
 
-[Add acknowledgements and credits as appropriate] 
+- **Professor Peter Krüger** (University of Chiba) - For creating the original Multiplet2 calculation code
+- The GUI and cross-platform tools were developed to make Professor Krüger's work more accessible to researchers 
